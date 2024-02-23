@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dosis:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #FFDEB4;
+    color: #B2A4FF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.cabecalho{
+    background-color: #FFB4B4;
+    padding: 1% 0% 1% 10%;
+
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho_menu_link{
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: #FFDEB4;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cabecalho_menu_link:hover{
+    text-decoration: underline;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    padding: 5% 15%;
+    flex-grow: 1;
+}
+
+.apresentacao_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.apresentacao_conteudo_titulo{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.apresentacao_conteudo_texto{
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.apresentacao_conteudo_fotos{
+  padding-left: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape{
+    background-color: #FFB4B4;
+    padding: 1% 0% 1% 10%;
+
+
+}
+
+.rodape h2{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #FFDEB4;
+    font-weight: 400;
+}
